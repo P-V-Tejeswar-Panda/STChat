@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_back_astro"
+        android:layout_above="@+id/sendBox"
+        android:id="@+id/messageList"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendBox"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imageList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="0.85"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Message"
+                android:padding="15sp"
+                android:background="@drawable/message_box"
+                android:id="@+id/messageBox"/>
+            <Button
+                android:layout_weight="0.12"
+                android:layout_width="0dp"
+                android:layout_height="55sp"
+                android:id="@+id/addImage"
+                android:background="@drawable/add_a_photo"
+                android:layout_gravity="bottom" />
+
+            <Button
+                android:layout_weight="0.12"
+                android:layout_width="0dp"
+                android:layout_height="55sp"
+                android:id="@+id/messageSendButton"
+                android:background="@drawable/arrows"
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

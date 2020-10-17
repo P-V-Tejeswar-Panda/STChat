@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/messageListCard"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:id="@+id/spaceLeft"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/messageText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:textColor="#000000"
+                android:padding="15sp"
+                android:text="P V Tejeswar Panda"
+                android:textIsSelectable="true"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/myBlue"
+                android:fontFamily="@font/bold"
+                android:id="@+id/messageSender"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:id="@+id/spaceRight"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Media"
+        android:id="@+id/viewMedia"
+        />
+</LinearLayout>

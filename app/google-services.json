@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677699215814",
+    "firebase_url": "https://stchat-92597.firebaseio.com",
+    "project_id": "stchat-92597",
+    "storage_bucket": "stchat-92597.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677699215814:android:8f58dad2157d951f24d2c7",
+        "android_client_info": {
+          "package_name": "com.example.stchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677699215814-n2k4fqrmek020t998dbf00nr8e278bdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stchat",
+            "certificate_hash": "46199a40af04881da1877b3d7beae09372eb22df"
+          }
+        },
+        {
+          "client_id": "677699215814-reu0ilk55e20den0qe8gp2sj7k514ueu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpKqQQRvJSH7W_CynOPVdgtCwQJ75H2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677699215814-reu0ilk55e20den0qe8gp2sj7k514ueu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
